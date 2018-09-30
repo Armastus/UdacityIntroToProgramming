@@ -1,0 +1,45 @@
+<style>
+.special {
+    color: purple;
+}
+p {
+    font-style: italic;
+}
+
+li {
+    font-size: 1.5em;
+  }
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+  color: red;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.blue_box {
+    float: right;
+    border: 10px solid blue;
+    width: 150px;
+    height: 100px;
+    padding: 0.5em;
+  }
+
+  .red_box {
+    border: 10px solid red;
+    padding: 0.5em;
+    margin: 0.5em;
+    width: 20px;
+    height: 20px;
+    }
+
+#important-information {
+    font-weight: bold;
+}
+
+p { color: red; text-align: center; font-size:24pt; }
+ol { display: flex; }
+li { margin: 20px; }
+</style>

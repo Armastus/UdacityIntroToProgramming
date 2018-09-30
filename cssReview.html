@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<style>
+.special {
+    color: purple;
+}
+p {
+    font-style: italic;
+}
+
+li {
+    font-size: 1.5em;
+  }
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+  color: red;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.blue_box {
+    border: 10px solid blue;
+    width: 150px;
+    height: 100px;
+    padding: 0.5em;
+  }
+
+  .red_box {
+    border: 10px solid red;
+    padding: 0.5em;
+    margin: 0.5em;
+    width: 20px;
+    height: 20px;
+    }
+    
+#important-information {
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+  <div class="blue_box"> Hooray, a box!</div>
+  <div class="red_box"></div>
+
+  <h1>To-do:</h1>
+  <ul>
+    <li class="done">Buy milk
+    <li>Buy eggs
+    <li class="done">Buy flour
+    <li class="highlight done">Make waffles
+    <li>Do laundry
+    <li class="highlight">Learn to code
+    <li class="highlight">Build a robot
+  </ul>
+
+<h1 class = "special">This header is special</h1>
+<p>A nice paragraph in italics.</p>
+<h1>This header isn't so special.</h1>
+<p>And this paragraph will be in italics too!</p>
+<p id = "important-information">This paragraph needs to be italicized and bolded!</p>
+
+</body>
+</html>
