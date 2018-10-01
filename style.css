@@ -1,9 +1,30 @@
 <style>
+.container{
+  width: 200px;
+  border: 5px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+}
+
+.red{
+  background-color: red;
+}
+
+.black{
+  background-color: black;
+}
+
 .special {
     color: purple;
 }
+
 p {
-    font-style: italic;
+    font: bold 16pt Consolas, "Courier New", Courier, monospace;
 }
 
 li {
@@ -20,6 +41,8 @@ li {
 }
 
 .blue_box {
+    display: flex;
+    flex-wrap: wrap;
     float: right;
     border: 10px solid blue;
     width: 150px;
@@ -39,7 +62,30 @@ li {
     font-weight: bold;
 }
 
-p { color: red; text-align: center; font-size:24pt; }
+em {
+  font-weight: bold;
+  color: red;
+  font-style: normal;
+}
+
+
+p { color: red; text-align: center; font-size:24pt;
+  font: italic 10pt "Times New Roman";
+  text-decoration: underline; }
 ol { display: flex; }
 li { margin: 20px; }
+
+h1{
+    font: bold 12pt Courier, Impact;
+}
+
+p{
+	font: italic 10pt "Times New Roman";
+  	text-decoration: underline;
+}
+
+body {
+  font-family: 'Tangerine', serif;
+  text-shadow: 4px 4px 4px #aaa;
+}
 </style>
